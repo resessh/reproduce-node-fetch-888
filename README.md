@@ -1,20 +1,11 @@
-# reproduce-node-fetch-888
+# Reproduce missing subpath of node-fetch
 
-## Build Setup
+## How it's reproduced.
 
 ```bash
-# install dependencies
 $ yarn install
-
-# serve with hot reload at localhost:3000
 $ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Result
+![image](https://user-images.githubusercontent.com/1481277/87742685-37460380-c822-11ea-87ff-e6a0aa3f0455.png)
